@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         int min = 10;
         int max = 20;
         int amplitud = max - min;
@@ -19,6 +20,7 @@ public class Main {
             resultado = scanner.nextInt ();
 
         if (resultado == numeroFinal){
+            System.out.println("Numero Ganador");
 
         }if (resultado > numeroFinal) {
             System.out.println("Es mayor al numero aleatorio");

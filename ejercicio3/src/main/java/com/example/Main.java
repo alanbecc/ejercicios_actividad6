@@ -49,6 +49,7 @@ public class Main {
     int num2 = scanner.nextInt();
     int areaTriangulo = (num1 * num2);
     System.out.println("el area del triangulo es " + areaTriangulo);
+    System.out.println("___________________________________________");
        
     }
 
@@ -59,16 +60,18 @@ public class Main {
     int num2 = scanner.nextInt();
     int areaCuadrado = (num1 * num2);
     System.out.println("el Area del cuadrado es " + areaCuadrado);
+    System.out.println("___________________________________________");
        
     }
 
     private static void calcularRectangulo(Scanner scanner) {
     System.out.println("Ingrese la base del rectangulo");
-    int num1 = scanner.nextInt();1
+    int num1 = scanner.nextInt();
     System.out.println("ingrese la altura del rectangulo");
     int num2 = scanner.nextInt();
     int areaRectangulo = (num1 * num2);
-    System.out.println("el Area del rectangulo es " + areaRectangulo);    
+    System.out.println("el Area del rectangulo es " + areaRectangulo);
+    System.out.println("___________________________________________");    
         
     }
 
@@ -76,6 +79,7 @@ public class Main {
     System.out.println("Ingrese el radio del circulo");   
     int num1 = scanner.nextInt();
     double areaCirculo = (Math.PI * num1);
-    System.out.println("El area del circulo");   
+    System.out.println("El area del circulo " + areaCirculo); 
+    System.out.println("_____________________________________");  
     }
 }
