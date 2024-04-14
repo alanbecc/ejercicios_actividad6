@@ -9,7 +9,7 @@ public class Main {
         int horasTrabajo = 192;
         int horasExtras = 10;
         double auxilioTransporte = 162000;
-        // Cálculo de la nómina
+        // Cálculo de la Nomina
         double salarioDevengado = calcularSalarioDevengado(salarioBase, horasTrabajo, horasExtras);
         double deducciones = calcularDeducciones(salarioDevengado, auxilioTransporte);
         double salarioNeto = salarioDevengado - deducciones;
