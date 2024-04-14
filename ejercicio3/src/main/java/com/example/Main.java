@@ -43,18 +43,39 @@ public class Main {
     }
 
     private static void calcularTriangulo(Scanner scanner) {
+    System.out.println("ingrese la base del triangulo");
+    int num1 = scanner.nextInt();
+    System.out.println("Ingrese la altura del triangulo");
+    int num2 = scanner.nextInt();
+    int areaTriangulo = (num1 * num2);
+    System.out.println("el area del triangulo es " + areaTriangulo);
        
     }
 
     private static void calcularCuadrado(Scanner scanner) {
+    System.out.println("ingrese el primer lado del cuadrado");   
+    int num1 = scanner.nextInt();
+    System.out.println("ingrese el segundo lado del cuadrado");
+    int num2 = scanner.nextInt();
+    int areaCuadrado = (num1 * num2);
+    System.out.println("el Area del cuadrado es " + areaCuadrado);
        
     }
 
     private static void calcularRectangulo(Scanner scanner) {
+    System.out.println("Ingrese la base del rectangulo");
+    int num1 = scanner.nextInt();1
+    System.out.println("ingrese la altura del rectangulo");
+    int num2 = scanner.nextInt();
+    int areaRectangulo = (num1 * num2);
+    System.out.println("el Area del rectangulo es " + areaRectangulo);    
         
     }
 
     private static void calcularCirculo(Scanner scanner) {
-       
+    System.out.println("Ingrese el radio del circulo");   
+    int num1 = scanner.nextInt();
+    double areaCirculo = (Math.PI * num1);
+    System.out.println("El area del circulo");   
     }
 }
